@@ -1,0 +1,11 @@
+# authors 공용 변수
+  - name: chunbs
+    koname: 천보성 팀장
+    email: chunbs@brandi.co.kr
+    position: R&D 개발2팀
+    img: /assets/profile/chunbs.jpg
+  - name: kangww
+    koname: 강원우 과장
+    email: kangww@brandi.co.kr
+    position: R&D 개발2팀
+    img: /assets/profile/kangww.jpg
