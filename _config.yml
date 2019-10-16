@@ -187,7 +187,10 @@ social:
     url: ""
     desc: Share to Hacker News
     share: false
-
+collections:
+  authors:
+    title:Authors
+    output:true
 # Social sharing protocols
 # These are for automatically generating sharing metadata for FB and Twitter
 # OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
