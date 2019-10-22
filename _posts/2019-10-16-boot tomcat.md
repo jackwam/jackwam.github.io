@@ -14,9 +14,15 @@ public class xxxApplication <b>extends SpringBootServletInittializer</b>{
 }
 
 2. pom.xml 설정추가 - tomcat 미사용 설정
+<b>
 <dependency>
   <groupId>org.springframework.boot</groupId>
   <artifactId>spring-boot-starter-tomcat</artifactId>
   <scope>provided</scope>
 </dependency>
+</b>
+
+3. application.properties port설정 주석
+<b> #server.port = 18081</b>
+
 
