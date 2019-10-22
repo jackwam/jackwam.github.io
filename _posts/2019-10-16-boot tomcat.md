@@ -25,4 +25,6 @@ public class xxxApplication <b>extends SpringBootServletInittializer</b>{
 3. application.properties port설정 주석
 <b> #server.port = 18081</b>
 
+$ tomcat security오류일 경우 enable security 설정 
+
 
