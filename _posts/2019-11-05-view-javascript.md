@@ -21,3 +21,8 @@
  - source
  @ResponseBody
  public Object settingPart(@RequestParam Map<String, Object> params) throws
+
+
+
+reactive stream  - db (메모리 DB)
+elasticsearch 캐싱 데이터 가져온거
