@@ -1,0 +1,75 @@
+1) -vm 
+
+    C:/Program Files/Java/jdk1.8.0_172/bin/javaw.exe 
+
+    >이클립스에서 사용할 JDK
+
+2) -Dosgi.requiredJavaVersion=1.8
+
+    > 이클립스가 사용할 최소버전의 JDK
+
+3) -Xverify:none 
+
+    > 설정시 이클립스 초기 구동시 클래스 및 플러그인의 유효성 검사를 건너뛰겠다는 의미이며 구동속도 향상
+
+4) -XX:+UseParallelGC
+
+   > 병렬 가비지 컬렉션사용, 병렬처리로 인한 처리속도 향상
+
+5) -XX:+AggressiveOpts
+
+   > https://www.opsian.com/blog/aggressive-opts/
+
+6) -XX:-UseConcMarkSweepGC
+
+   > http://zzikjh.tistory.com/entry/Java-GC%ED%83%80%EC%9E%85-%EB%B0%8F-%EC%84%A4%EC%A0%95-%EC%A0%95%EB%B3%B4
+
+7) -XX:PermSize=128M
+
+   -XX:MaxPermSize=128M
+
+   > JVM 클래스와 메소드를 위한공간이며 Out of Memory 발생시 크기 상향조절
+
+8) -XX:NewSize=128M
+
+   -XX:MaxNewSize=128M
+
+   > 새로 생성된 객체들을 위한 공간
+
+9) -Xms1024m
+
+   > 이클립스가 사용하는 최소메모리
+
+10) -Xmx4096m
+
+  > 이클립스가 사용하는 최대메모리 - 사용할 컴퓨터에따라 할당크기를 변경해줘야됨.
+
+ 
+
+2. 이클립스 Show Heap Status
+
+ - Window > preferences > General - Show heap status 체크
+
+ 
+
+3. 스펠링체크 설정 해제
+
+ - Window > preferences > General > Text Editors > Spelling - Enable spell checking 체크해제
+
+ 
+
+4. Automatic Updates
+
+ - Window > preferences > Install/Update > Automatic Updates - Automatically find new updates and notify me 체크해제
+
+ 
+
+5. 이클립스 인코딩 UTF-8 설정
+
+- Window > preferences > General >Workspace - Text file encoding
+
+ 
+
+6.Controll 눌렀을시 느려지는 현상 해결
+
+- Window -> Preferences -> General -> Editors -> Text Editors -> Hyperlinking  uncheck
